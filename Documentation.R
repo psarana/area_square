@@ -1,18 +1,17 @@
 library(devtools)
 
-#' An S3 class to convert grams to liters
-#' Input unit: A number of unit grams ot liters (numeric)
-#' Output unit: The input unit now in converted unit of desire (numeric)
+#' An S3 class to represent a normal square
 #' 
-#' Convert between Grams(g) to Liters(l)
-#'
-#' @param x A number to be converted
-#' @return The number of x now in the desired conversion unit
+#' @param side A list of numbers to represents the side length of square
+#' @return The area of the square specified
 #' @export
-#' @examples
-#
-#' grams_to_liter(250)
-#' 
-#' liter_to_grams(0)
-#' 
-#' 
+#' @examples 
+#' my_square(3)
+
+
+#' @area.square() function
+#' @return The area of the triangle with given sides
+#' @example 
+#' area.object(my_square(3))
+
+
